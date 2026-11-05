@@ -11,8 +11,8 @@ All text, dates, events, venue, gallery, RSVP, and assets live in:
 - **Couple Details**:
   - `couple.groom`: Groom's name (`"Neelesh"`)
   - `couple.bride`: Bride's name (`"Mahima"`)
-  - `couple.openingDate`: Date string on cover (`"11 & 12 · December · 2026"`)
-  - `couple.heroDate`: Date badge in hero (`"11 · 12 · 2026"`)
+  - `couple.openingDate`: Date string on cover (`""` to omit, or `"12 · December · 2026"`)
+  - `couple.heroDate`: Date badge in hero (`"12 · 12 · 2026"`)
 - **Invitation (Grandparents & Parents)**:
   - `invitation.grandparents`: Grandparents' names (`"Shrimati Charan Kaur & Late Shree Nathi Lal"`)
   - `invitation.subtext`: Invitation line (`"Cordially invite you to celebrate the marriage of their grandson"`)
@@ -21,7 +21,7 @@ All text, dates, events, venue, gallery, RSVP, and assets live in:
   - `invitation.bride`: Bride's name
   - `invitation.brideParents`: Bride's parents (`"D/o Shri Radheyshyam Chauhan & Smt. Radhika Chauhan"`)
 - **Countdown**:
-  - `countdown.targetISO`: Target ISO date string (`"2026-12-11T11:00:00+05:30"`)
+  - `countdown.targetISO`: Target ISO date string (`"2026-12-12T16:00:00+05:30"`)
 - **Scratch-to-reveal Save the Date Card**:
   - `scratchCard.day`: Day of week (`"Saturday"`)
   - `scratchCard.date`: Day number (`"12"`)

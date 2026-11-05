@@ -1,14 +1,14 @@
 // =============================================================================
 // NEELESH & MAHIMA — WEDDING DATA CONFIGURATION
-// Diggi Palace, Jaipur · 11 & 12 December 2026
+// Diggi Palace, Jaipur · 12 December 2026
 // =============================================================================
 
 window.WEDDING_DATA = {
   couple: {
     groom: "Neelesh",
     bride: "Mahima",
-    openingDate: "11 & 12 · December · 2026",
-    heroDate: "11 · 12 · 2026"
+    openingDate: "",
+    heroDate: "12 · 12 · 2026"
   },
 
   invitation: {
@@ -21,7 +21,7 @@ window.WEDDING_DATA = {
   },
 
   countdown: {
-    targetISO: "2026-12-11T11:00:00+05:30"
+    targetISO: "2026-12-12T16:00:00+05:30"
   },
 
   scratchCard: {
