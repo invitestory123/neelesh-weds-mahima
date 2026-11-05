@@ -38,9 +38,6 @@ window.WEDDING_DATA = {
   },
 
   events: [
-    { name: "Haldi Ceremony", date: "11 Dec", time: "11:00 AM", place: "Diggi Palace, Jaipur", mark: "turmeric" },
-    { name: "Sangeet Ceremony", date: "11 Dec", time: "7:00 PM onwards", place: "Diggi Palace, Jaipur", mark: "sangeet" },
-    { name: "Baraat", date: "12 Dec", time: "2:00 PM", place: "Diggi Palace, Jaipur", mark: "mehendi" },
     { name: "Wedding Phere", date: "12 Dec", time: "4:00 PM", place: "Diggi Palace, Jaipur", mark: "wedding" },
     { name: "Reception", date: "12 Dec", time: "7:00 PM onwards", place: "Diggi Palace, Jaipur", mark: "reception" }
   ],
