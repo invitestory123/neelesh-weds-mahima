@@ -317,7 +317,7 @@ function xd(){
     e&&(0,H.jsx)(yd,{}),
     (0,H.jsx)(kc,{children:!e&&(0,H.jsx)(gd,{onOpen:handleOpen})}),
     (0,H.jsxs)("section",{className:"hero",ref:i,children:[
-      (0,H.jsx)(dd.img,{style:a?{}:{y:s},className:"hero__art",src:__wd.assets?.heroArt??"./editable/assets/neelesh-mahima-hero.webp",alt:`${groom} & ${bride}`}),
+      (__wd.assets?.heroArt ? (0,H.jsx)(dd.img,{style:a?{}:{y:s},className:"hero__art",src:__wd.assets.heroArt,alt:`${groom} & ${bride}`}) : null),
       (0,H.jsx)("div",{className:"hero__shade"}),
       (0,H.jsxs)(dd.div,{className:"hero__copy",style:a?{}:{y:c},initial:{opacity:0},animate:{opacity:+!!e},transition:{delay:.25,duration:.9},children:[
         (0,H.jsx)("p",{className:"eyebrow",children:"Together with our families"}),
@@ -413,7 +413,7 @@ function xd(){
     })}),
     (0,H.jsx)(RsvpSection,{}),
     (0,H.jsxs)("footer",{children:[
-      (0,H.jsx)("img",{loading:"lazy",src:__wd.assets?.heroArt??"./editable/assets/neelesh-mahima-hero.webp",alt:`${groom} & ${bride}`}),
+      (__wd.assets?.heroArt ? (0,H.jsx)("img",{loading:"lazy",src:__wd.assets.heroArt,alt:`${groom} & ${bride}`}) : null),
       (0,H.jsx)("div",{className:"footer__shade"}),
       (0,H.jsxs)(md,{className:"footer__copy",children:[
         (0,H.jsx)("p",{className:"script",children:"With love & blessings"}),

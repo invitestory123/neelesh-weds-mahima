@@ -307,3 +307,21 @@
   font-weight: 600;
   color: var(--leaf);
 }
+
+/* Hero Styling when image is omitted */
+.hero {
+  background: radial-gradient(circle at 50% 32%, #3c541c 0%, var(--leaf) 65%, #1c270d 100%) !important;
+}
+.hero:before {
+  content: '';
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 320px;
+  height: 320px;
+  background: radial-gradient(circle, rgba(216, 154, 43, 0.14) 0%, transparent 70%);
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 1;
+}
