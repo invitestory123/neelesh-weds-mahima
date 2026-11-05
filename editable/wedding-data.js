@@ -61,10 +61,11 @@ window.WEDDING_DATA = {
 
   rsvp: {
     pitaPaksh: [
+      { id: "✦", names: "Nivesh (Bhai)", isSpecial: true },
       { id: "1", names: "Rani - Mukesh" },
       { id: "2", names: "Babita - Suresh" },
       { id: "3", names: "Reena - Umesh" },
-      { id: "✦", names: "Ritesh, Vishal, Rahul, Vineet, Krish & Umesh’s son", isSpecial: true },
+      { id: "✦", names: "Ritesh, Vishal, Rahul, Vineet, Krish & Yash", isSpecial: true },
       { id: "4", names: "Rajjo - Badri Prasad" },
       { id: "5", names: "Sharda - Ishwari Prasad" },
       { id: "6", names: "Kanta - Surjeet Singh" },
@@ -74,7 +75,7 @@ window.WEDDING_DATA = {
     mataPaksh: [
       { id: "1", names: "Sunita - Kamal" },
       { id: "2", names: "Krishna - Ashok" },
-      { id: "3", names: "Mrs Sunny - Sunny Pareek" },
+      { id: "3", names: "Nikita - Sunny Pareek" },
       { id: "✦", names: "Harsh, Kartik (Special request)", isSpecial: true },
       { id: "4", names: "Sushila - Late Ajay Jain" },
       { id: "5", names: "Radha - Ashok" },
