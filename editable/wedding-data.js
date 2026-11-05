@@ -32,7 +32,7 @@ window.WEDDING_DATA = {
   },
 
   story: {
-    portraitCaption: ["Together in love", "to forever"],
+    portraitCaption: ["Together, in love", "and ready for forever ♥️"],
     tagline: "one beautiful promise",
     text: "With joyful hearts and the sacred blessings of our loving elders and families, we invite you to witness the beginning of our forever amidst the regal elegance of Diggi Palace in the pink city of Jaipur."
   },

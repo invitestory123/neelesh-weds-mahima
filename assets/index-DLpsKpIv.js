@@ -345,7 +345,7 @@ function xd(){
       ]}),
       (0,H.jsxs)(md,{className:"story__portrait",children:[
         (0,H.jsx)("img",{loading:"lazy",src:__wd.assets?.storyPhoto??"./editable/assets/neelesh-mahima-story.webp",alt:`${groom} and ${bride}`}),
-        (0,H.jsxs)("span",{children:[story.portraitCaption?.[0]??"Together in love",(0,H.jsx)("br",{}),story.portraitCaption?.[1]??"to forever"]})
+        (0,H.jsxs)("span",{children:[story.portraitCaption?.[0]??"Together, in love",(0,H.jsx)("br",{}),story.portraitCaption?.[1]??"and ready for forever ♥️"]})
       ]})
     ]}),
     (0,H.jsxs)("section",{className:"events section",id:"events",children:[
