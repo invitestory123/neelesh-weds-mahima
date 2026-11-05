@@ -339,7 +339,7 @@ function xd(){
       (0,H.jsxs)(md,{className:"story__inner",children:[
         (0,H.jsx)(pd,{}),
         (0,H.jsx)("p",{className:"kicker",children:"Our story"}),
-        (0,H.jsxs)("h2",{children:["Two paths,",(0,H.jsx)("br",{}),(0,H.jsx)("em",{children:story.tagline??"one beautiful promise"})]}),
+        (0,H.jsxs)("h2",{children:["Two paths,",(0,H.jsx)("br",{}),(0,H.jsx)("em",{children:story.tagline?story.tagline.replace(/^Two paths,\s*/i,""):"one beautiful promise"})]}),
         (0,H.jsx)("p",{children:story.text??"With love in our hearts and the blessings of our elders and families, we invite you to celebrate the joyous union of Neelesh and Mahima as we begin our forever amidst the royal heritage of Jaipur."}),
         (0,H.jsxs)("div",{className:"signature",children:[groom+" ",(0,H.jsx)("i",{children:"&"})," "+bride]})
       ]}),
